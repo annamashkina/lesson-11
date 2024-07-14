@@ -1,0 +1,15 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @include accent-section ();
+
+    &__name {
+        color: var(--color-contrast);
+        margin: 0 0 20px;
+        font-size: 21px;
+    }
+    &__copyright {
+        font-size: 13px;
+        margin: 0;
+    }
+}

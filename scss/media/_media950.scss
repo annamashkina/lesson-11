@@ -1,0 +1,32 @@
+@media screen and (max-width:950px) {
+    .center {
+        padding-left: calc(50vw - 350px);
+        padding-right: calc(50vw - 350px);
+    }
+    .projects {
+        max-width: 950px;
+        padding: 50px 20px;
+        &__icon {
+            max-width: 50px; 
+            margin-right: 10px;
+        }
+        &__text-top {
+            font-size: 18px; 
+        }
+        &__text-bottom {
+            font-size: 14px; 
+        }
+    }
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &__name {
+            font-size: 18px;
+            margin: 0 0 20px;
+        }
+        &__copyright {
+            font-size: 11px;
+            margin: 0;
+        }
+    }
+   }

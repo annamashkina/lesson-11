@@ -1,0 +1,35 @@
+.projects {
+    background: var(--color-accent);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    &__item {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    &__icon {
+        max-width: 50px;
+        margin-right: 20px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 1;
+        color: var(--color-contrast);
+    }
+    &__text-top {
+        font-size: 21px;
+    }
+    &__text-bottom {
+        font-size: 16px;
+    }
+} 
+
+
+
+
+
+
